@@ -18,10 +18,10 @@ def main():
     while True:
         if is_lower(guessed_num, secret_num_to_guess):
             print("Your guess is lower than the secret number")
-            guessed_num = int(input("Hello! Enter a number between 1 - 100: "))
+            guessed_num = int(input("Enter a number between 1 - 100: "))
         if is_higher(guessed_num, secret_num_to_guess):
             print("Your guess is higher than the secret number")
-            guessed_num = int(input("Hello! Enter a number between 1 - 100: "))
+            guessed_num = int(input("Enter a number between 1 - 100: "))
         if is_correct(guessed_num, secret_num_to_guess):
             print("Your guess is correct! Good job:)")
             break
